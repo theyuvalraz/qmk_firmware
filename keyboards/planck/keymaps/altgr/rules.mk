@@ -19,5 +19,7 @@ STENO_ENABLE     = yes	# enable TX Bolt protocol, requires VIRTSER and may not w
 # do not enable SLEEP_LED_ENABLE. it uses the same timer as BACKLIGHT_ENABLE
 SLEEP_LED_ENABLE = no   # breathing sleep LED during USB suspend
 
+
+
 TAP_DANCE_ENABLE = yes  # enable double tap completion of (),[],{}
 

@@ -55,7 +55,7 @@
 #define BACKLIGHT_PIN B6
 // #define BACKLIGHT_BREATHING
 #define BACKLIGHT_LEVELS 5
-
+#define RGBLIGHT_LAYERS
 #define RGB_DI_PIN E2
 #define RGBLED_NUM 4
 #define RGBLIGHT_ANIMATIONS
@@ -244,3 +244,5 @@
 /* Bootmagic Lite key configuration */
 // #define BOOTMAGIC_LITE_ROW 0
 // #define BOOTMAGIC_LITE_COLUMN 0
+#define TAPPING_TERM 200
+#define AUTO_SHIFT_TIMEOUT 220
